@@ -1,0 +1,40 @@
+Short project description:
+
+Application for tracking your progress in weightlifting.
+
+General functionality is as follows:
+ Every user has personal account. He has templates of trainings (set of exercises in certain order).
+ During an actual training user adds sets and can mark them as "Warm up" set or a "Working" set, adds number of repetitions 
+and weight that was used to perform an exercise (for instance, he can add info that he performed bench press with 80kg for 10 reps in 1st set).
+
+ Application can help users to track their progress on all lifts to make sure that so called "progressive overload" is applied 
+and they are not stagnating.
+
+Entities: user, training, exercise, set, training template.
+
+Versions support for training templates is supported (may be useful for creating different training splits or something like that, or 
+maybe compare your current and previous routine, possibility of rollback).
+
+Many to many relation: training templates -- users. We want to be able to share same training template among several users. 
+And we also want to manage access to certain routine for certain users (add your friends but make private for all other users).
+
+____________________________________________________________________________________________________________________________________________________________________________
+Краткое описание проекта:
+
+Приложение для отслеживания ваших успехов в тренировках в зале.
+
+Общий функционал выглядит следующим образом:
+ У каждого пользователя есть личный кабинет. У него есть шаблоны тренировок (набор упражнений в определенном порядке).
+ Во время фактической тренировки пользователь добавляет подходы и может пометить их как «Разминочный» или «Рабочий» подход, добавить количество повторений.
+и вес, который использовался для выполнения упражнения (например, он может добавить информацию о том, что выполнял жим лежа с весом 80 кг в 10 повторениях в 1-м подходе).
+
+ Приложение может помочь пользователям отслеживать их прогресс во всех упражнениях, чтобы убедиться, что применяется так называемая «прогрессивная перегрузка».
+и они не стагнируют.
+
+Сущности: пользователь, тренировка, упражнение, набор, шаблон тренировки.
+
+Поддерживается поддержка версий для шаблонов (может быть полезно для создания разных тренировочных сплитов или чего-то в этом роде, или
+возможно, сравнить текущую и предыдущую рутину, возможность отката).
+
+Отношение многие ко многим: шаблоны тренировок -- пользователи. Мы хотим иметь возможность использовать один и тот же шаблон обучения среди нескольких пользователей.
+И мы также хотим управлять доступом к шаблону для определенных пользователей (чтобы добавить своих друзей, но сделать приватным для всех остальных пользователей).
